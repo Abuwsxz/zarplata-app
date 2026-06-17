@@ -1,0 +1,19 @@
+{
+	"appId": "com.salary.naruki",
+	"appName": "Зарплата на руки",
+	"webDir": "www",
+	"server": {
+		"androidScheme": "https"
+	},
+	"android": {
+		"allowMixedContent": false,
+		"backgroundColor": "#f5f0eb"
+	},
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 1200,
+			"backgroundColor": "#f5f0eb",
+			"showSpinner": false
+		}
+	}
+}

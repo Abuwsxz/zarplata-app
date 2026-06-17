@@ -1,0 +1,21 @@
+{
+  "name": "salary-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Калькулятор зарплаты на руки — Android приложение",
+  "scripts": {
+    "cap:sync": "npx cap sync android",
+    "cap:open": "npx cap open android",
+    "android:build": "cd android && gradlew.bat assembleDebug"
+  },
+  "capacitor": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/android": "^7.2.0",
+    "@capacitor/cli": "^7.2.0",
+    "@capacitor/core": "^7.2.0"
+  }
+}
